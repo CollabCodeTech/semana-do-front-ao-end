@@ -1,4 +1,10 @@
 .card-collab {
+  display: flex;
+  align-items: center;
+}
+
+.card-collab > .card {
+  display: inline-block;
   background-color: var(--color-zero);
   border-radius: var(--radius);
 
@@ -7,8 +13,21 @@
   /* padding: top/bottom right/left; */
   /* padding: top/bottom/right/left; */
   /* padding: 60px 0 45px 30px; */
-  padding: var(--spacing-big) 0 var(--spacing-small) var(--spacing-medium);
+  padding: var(--spacing-big) var(--spacing-medium) var(--spacing-small);
   width: 540px;
-  height: 595px;
-  box-shadow: 0 0 24px 0 var(--color-negative-light);
+  box-shadow: 0 0 24px 0 var(--color-negative-very-light);
+}
+
+.card-collab > .photo {
+  display: inline-block;
+  border-radius: var(--radius);
+  height: 325px;
+  transform: translateX(-100%);
+  z-index: -1;
+
+  transition: transform 200ms linear;
+}
+
+.card-collab > .card:hover + .photo {
+  transform: translateX(calc(var(--radius) * -1));
 }

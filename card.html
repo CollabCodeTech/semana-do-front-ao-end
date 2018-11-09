@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Projeto da semana do Front ao End</title>
@@ -10,23 +10,39 @@
     <link rel="stylesheet" href="css/generic/reset.css" />
     <link rel="stylesheet" href="css/base/index.css" />
 
+    <link rel="stylesheet" href="css/objects/container-collab.css" />
     <link rel="stylesheet" href="css/objects/title-collab.css" />
     <link rel="stylesheet" href="css/objects/text-collab.css" />
+    <link rel="stylesheet" href="css/objects/navigation-collab.css" />
 
     <link rel="stylesheet" href="css/components/card-collab.css" />
+    <link rel="stylesheet" href="css/components/button-share.css" />
+    <link rel="stylesheet" href="css/components/button-collab.css" />
   </head>
   <body>
-    <article class="card-collab">
-      <h1 class="title-collab">2.0</h1>
+    <main class="container-collab">
+      <div class="card-collab">
+        <article class="card">
+          <h1 class="title-collab">2.0</h1>
 
-      <p class="text-collab">
-        2.0 é an upcoming Indian science fiction film written and directed by S.
-        Shankar, co-written by B. Jeyamohan.
-      </p>
+          <p class="text-collab">
+            2.0 is an upcoming Indian science fiction film written and directed
+            by S. Shankar, co-written by B. Jeyamohan.
+          </p>
 
-      Casting:
+          <nav class="navigation-collab">
+            <button class="button-share">Compartilhar</button>
 
-      <button>Add to Watch list</button>
-    </article>
+            <button class="button-collab">Add to Watch list</button>
+          </nav>
+        </article>
+
+        <img
+          src="img/super.jpg"
+          alt="Foto de uma homem não feliz"
+          class="photo"
+        />
+      </div>
+    </main>
   </body>
 </html>

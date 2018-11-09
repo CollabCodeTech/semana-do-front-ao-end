@@ -1,0 +1,18 @@
+.button-share {
+  display: inline-block;
+  width: var(--spacing-big);
+  height: var(--spacing-big);
+  background: url(../../img/share.svg) var(--color-first) center no-repeat;
+  background-size: 45%;
+  border: none;
+  border-radius: 50%;
+  text-indent: -9999px;
+  cursor: pointer;
+  opacity: 0.8;
+
+  transition: opacity 200ms linear;
+}
+
+.button-share:hover {
+  opacity: 1;
+}

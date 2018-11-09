@@ -1,0 +1,24 @@
+.button-collab {
+  box-sizing: content-box;
+  display: block;
+  font-size: var(--font-medium);
+  color: var(--color-first);
+  border: var(--border) solid var(--color-first);
+  height: var(--spacing-big);
+  line-height: var(--spacing-big);
+  border-radius: calc(var(--spacing-big) / 2);
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
+  cursor: pointer;
+  background-color: var(--color-zero);
+
+  transition: all 300ms linear;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-collab:hover {
+  color: var(--color-zero);
+  border-color: var(--color-zero);
+  background-color: var(--color-first);
+}
