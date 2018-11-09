@@ -1,14 +1,5 @@
-.first {
+.isActive {
   animation: coiso 800ms linear;
-}
-.second {
-  animation: coiso 800ms 800ms linear;
-}
-.third {
-  animation: coiso 800ms 1600ms linear;
-}
-.last {
-  animation: coiso 800ms 2400ms linear;
 }
 
 @keyframes coiso {
