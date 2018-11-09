@@ -1,0 +1,24 @@
+.first {
+  animation: coiso 800ms linear;
+}
+.second {
+  animation: coiso 800ms 800ms linear;
+}
+.third {
+  animation: coiso 800ms 1600ms linear;
+}
+.last {
+  animation: coiso 800ms 2400ms linear;
+}
+
+@keyframes coiso {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
