@@ -1,8 +1,16 @@
-# HTML
+# Conceitos
+
+## HTML5
+
+Liguagem de marcação
 
 - Conteúdo
-- Marcação desse conteúdo
+- Marcação (tag)
+- Estrutura
 
-# CSS
+## CSS3
+
+Linguagem de estilo
 
 - Visual
+- Animações

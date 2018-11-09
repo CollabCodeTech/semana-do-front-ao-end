@@ -1,0 +1,10 @@
+:root {
+  --spacing-big: 60px;
+  --spacing-medium: 45px;
+  --spacing-small: 30px;
+
+  --font-big: 36px;
+  --font-medium: 22px;
+
+  --radius: 25px;
+}
