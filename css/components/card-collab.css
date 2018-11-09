@@ -1,10 +1,11 @@
 .card-collab {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .card-collab > .card {
-  display: inline-block;
+  display: block;
   background-color: var(--color-zero);
   border-radius: var(--radius);
 
@@ -19,15 +20,14 @@
 }
 
 .card-collab > .photo {
-  display: inline-block;
+  display: block;
   border-radius: var(--radius);
-  height: 325px;
-  transform: translateX(-100%);
+  width: 300px;
+  transform: translateY(-100%);
   z-index: -1;
-
   transition: transform 200ms linear;
 }
 
 .card-collab > .card:hover + .photo {
-  transform: translateX(calc(var(--radius) * -1));
+  transform: translateY(calc(var(--radius) * -1));
 }
